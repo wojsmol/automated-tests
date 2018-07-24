@@ -14,11 +14,21 @@
 			"php": "5.3.29"
 		}
 	},
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wojsmol/wp-cli"
+        },
+		{
+            "type": "vcs",
+            "url": "https://github.com/wojsmol/extension-command"
+        }
+    ],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
 		"php": ">=5.3.29",
-		"wp-cli/wp-cli": "dev-master"
+		"wp-cli/wp-cli": "dev-test"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "3.7.*",
